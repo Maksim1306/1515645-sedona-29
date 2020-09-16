@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 - Студент: [Максим Шевченко](https://up.htmlacademy.ru/htmlcss/29/user/1515645).
-- Наставник: [Сергей Шрамко](https://up.htmlacademy.ru/htmlcss/29/user/852139)..
+- Наставник: [Сергей Шрамко](https://htmlacademy.ru/profile/id852139).
 
 ---
 
