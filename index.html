@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8" />
     <title>Седона</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">ИНФОРМАЦИЯ</a></li>
-          <li><a href="#">ФОТО И ВИДЕО</a></li>
-          <li><a href="#">КАРТА ШТАТА</a></li>
-          <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <ul class="site-navigation">
+          <li class="nav-item"><a href="#">Информация</a></li>
+          <li class="nav-item"><a href="#">Фото и видео</a></li>
+          <li class="nav-item"><a href="#">Карта штата</a></li>
+          <li class="nav-item"><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
       <p>WELCOME</p>
@@ -22,65 +28,65 @@
         Canyon sucks!"</span
       >
     </header>
-    <main>
-      <div>
+    <main class="container">
+      <section class="info">
         <h2>
-          СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br />
+          Седона — небольшой городок в Аризоне, <br />
 
-          ЗАСЛУЖИВАЕТ БОЛЬШЕГО!
+          заслуживает большего!
         </h2>
-        <p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
-      </div>
+        <p>Рассмотрим 5 причин, по котрым седона круче, чем Гранд каньон!</p>
+      </section>
       <section>
-        <div>
-          <h3>НАСТОЯЩИЙ ГОРОДОК</h3>
-          <span>— №1 —</span>
-          <p>СЕДОНА - НЕ ФТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+        <div class="locations">
+          <h3>Настоящий городок</h3>
+          <span class="number-item">— №1 —</span>
+          <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
         </div>
-        <a href="img"></a>
+        <img src="#" alt="заведение в городе" />
       </section>
       <section>
         <h2>Возможности</h2>
-        <ul>
-          <li>
-            <h3>ЖИЛЬЁ</h3>
-            <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЁ КАК В КИНО!</p>
+        <ul class="feature-list">
+          <li class="feature-item">
+            <h3>Жильё</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
-          <li>
-            <h3>ЕДА</h3>
-            <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+          <li class="feature-item">
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li>
-            <h3>СУВЕНИРЫ</h3>
-            <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+          <li class="feature-item">
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
           </li>
         </ul>
       </section>
       <section>
-        <a href="img"></a>
-        <div>
-          <h3>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
-          <span>— №2 —</span>
-          <p>ДА, ПО НЕМУ МОЖНО ПРОЙТИ ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
+        <img src="#" alt="мост дьявола" />
+        <div class="locations">
+          <h3>Там есть мост дьявола</h3>
+          <span class="number-item">— №2 —</span>
+          <p>Да, по нему можно пройти если конечно вы осмелитесь</p>
         </div>
       </section>
-      <section>
+      <section class="advantages">
         <h2>Преимущества</h2>
         <ul>
           <li>
-            <h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-            <span>— №3 —</span>
-            <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+            <h3>Небольшая площадь</h3>
+            <span class="number-item-black">— №3 —</span>
+            <p>Все достопримечательности находятся очень близко</p>
           </li>
           <li>
-            <h3>КРАСИВАЯ ДОРОГА</h3>
-            <span>— №4 —</span>
-            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО</p>
+            <h3>Красивая дорога</h3>
+            <span class="number-item-black">— №4 —</span>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно</p>
           </li>
           <li>
-            <h3>МАЛО ТУРИСТОВ</h3>
-            <span>— №5 —</span>
-            <p>БОЛЬШЕНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+            <h3>Мало туристов</h3>
+            <span class="number-item-black">— №5 —</span>
+            <p>Большинство едет в Гранд каньон и толпится там</p>
           </li>
         </ul>
       </section>
@@ -88,28 +94,30 @@
         <h2>Поиск гостиницы</h2>
         <p>ЗАИНТЕРЕСОВАЛИСЬ?</p>
         <p>
-          УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШЕЕ
-          ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ
+          Укажите предпологаемые даты поездки, и мы покажем вам лучшее
+          предложение гостиниц в Седоне
         </p>
-        <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        <a href="#"> <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button></a>
       </section>
     </main>
   </body>
-  <footer>
+  <footer class="page-footer">
     <section>
       <h2>контактная информация</h2>
       <p>
-        <a href="">#VISITSEDONA</a> <br />
+        <a href="">#VISITSEDONA</a>
         ТЕЛ: <a href="tel:+74956660166">+7(495) 666-01-66</a>
       </p>
     </section>
     <section>
       <ul>
-        <li><a href="#">Твитер</a></li>
-        <li><a href="#">Фейсбук</a></li>
-        <li><a href="#">Ютуб</a></li>
+        <li><a href="https://twitter.com/">Твитер</a></li>
+        <li><a href="https://www.facebook.com/">Фейсбук</a></li>
+        <li><a href="https://www.youtube.com/">Ютуб</a></li>
       </ul>
     </section>
-    <p>Website by</p>
+    <div>
+      <p>Website by <a href="img"></a></p>
+    </div>
   </footer>
 </html>
