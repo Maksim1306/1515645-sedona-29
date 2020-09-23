@@ -12,50 +12,65 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <ul class="site-navigation">
-        <li class="nav-item"><a href="#">Информация</a></li>
-        <li class="nav-item"><a href="#">Фото и видео</a></li>
-        <li class="nav-item"><a href="#">Карта штата</a></li>
-        <li class="nav-item"><a href="hotels.html">Гостиницы</a></li>
-      </ul>
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <div class="main-navigation-left">
+            <ul class="site-navigation">
+              <li class="nav-item"><a href="#">Информация</a></li>
+              <li class="nav-item"><a href="#">Фото и видео</a></li>
+            </ul>
+          </div>
+          <div class="main-navigation-right">
+            <ul class="site-navigation">
+              <li class="nav-item"><a href="#">Карта штата</a></li>
+              <li class="nav-item"><a href="hotels.html">Гостиницы</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
   <main class="container">
-    <section class="info">
+    <section class="main-info">
       <h2 class="info-description">
         Седона — небольшой городок в Аризоне, <br />
-
         заслуживает большего!
       </h2>
       <p class="info-description-item">Рассмотрим 5 причин, по котрым седона круче, чем Гранд каньон!</p>
     </section>
-    <section>
+    <section class="card-menu">
       <div class="card card-main">
         <h3 class="card-title">Настоящий городок</h3>
         <span class="card-number">— №1 —</span>
         <p class="card-description">Седона — не атракцион для туристов, там течет своя жизнь</p>
       </div>
-      <img src="#" alt="заведение в городе" />
+      <img src="img/image.jpg" alt="заведение в городе" />
     </section>
-    <section>
+    <section class="feature">
       <h2>Возможности</h2>
       <ul class="feature-list">
-        <li class="feature-item">
-          <h3 class="feature-title">Жильё</h3>
-          <p class="feature-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-        </li>
-        <li class="feature-item">
-          <h3 class="feature-title">Еда</h3>
-          <p class="feature-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-        </li>
-        <li class="feature-item">
-          <h3 class="feature-title">Сувениры</h3>
-          <p class="feature-description">Не только китайского, но и местного производства!</p>
-        </li>
+        <div class="feature-blok">
+          <li class="feature-item">
+            <h3 class="feature-title">Жильё</h3>
+            <p class="feature-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+        </div>
+        <div class="feature-blok">
+          <li class="feature-item">
+            <h3 class="feature-title">Еда</h3>
+            <p class="feature-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+        </div>
+        <div class="feature-blok">
+          <li class="feature-item">
+            <h3 class="feature-title">Сувениры</h3>
+            <p class="feature-description">Не только китайского, но и местного производства!</p>
+          </li>
+        </div>
       </ul>
     </section>
-    <section>
-      <img src="#" alt="мост дьявола" />
+    <section class="card-menu">
+      <img src="img/image (1).jpg" alt="мост дьявола" />
       <div class="card card-main">
         <h3 class="card-title">Там есть мост дьявола</h3>
         <span class="card-number">— №2 —</span>
@@ -64,7 +79,7 @@
     </section>
     <section class="advantages">
       <h2>Преимущества</h2>
-      <ul>
+      <ul class="feature-list-line">
         <li>
           <div class="card">
             <h3 class="card-title">Небольшая площадь</h3>
