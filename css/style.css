@@ -122,8 +122,8 @@ background-color: var(--bacground-color);
 }
 
 .social-link-name{
-  list-style: none;
-  text-align: center;
+list-style: none;
+text-align: center;
 }
 
 .info-blok-hotels{
@@ -131,11 +131,11 @@ text-align: left;
 }
 
 .choise-list{
-  list-style: none;
+list-style: none;
 }
 
 .choise-button{
-  text-align: center;
+text-align: center;
 }
 
 .sorting-list{
@@ -143,27 +143,33 @@ list-style: none;
 color: var(--bacground-color);
 }
 
+.result-hotel{
+text-align: left;
+font-weight: bold;
+font-size: 21px;
+}
+
 .sorting-item a{
-  color: var(--basic-black);
+color: var(--basic-black);
 }
 .sorting-item a:hover,
 .sorting-item a:focus{
-  color: var(--basic-blue);
-  }
+color: var(--basic-blue);
+}
 
-  .name-hotel{
+.name-hotel{
 font-weight: bold;
 font-size: 21px;
 
-  }
+}
 
-  .type-hotel,
-  .name-hotel,
-  .prise-hotel,
-  {
-    text-align: left;
-  }
+.type-hotel,
+.name-hotel,
+.prise-hotel,
+{
+text-align: left;
+}
 
-  .rating-hotel{
-    text-align: right;
-  }
+.rating-hotel{
+text-align: right;
+}
