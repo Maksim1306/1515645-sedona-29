@@ -126,6 +126,10 @@ list-style: none;
 text-align: center;
 }
 
+.tel-info a{
+color: var(--basic-black);
+}
+
 .info-blok-hotels{
 text-align: left;
 }
@@ -172,4 +176,8 @@ text-align: left;
 
 .rating-hotel{
 text-align: right;
+}
+
+.company-name a{
+color: var(--basic-black);
 }
