@@ -51,17 +51,17 @@ img {
 }
 
 .main-navigation{
-font-size: 14px;
-line-height: 26px;
-color: var(--basic-black);
-background-color: var(--basic-white);
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
 }
 
-.site-navigation {
+.site-navigation{
   list-style: none;
 }
 
-.site-navigation a{
+.site-navigation a {
   color: var(--basic-black);
 }
 
@@ -71,113 +71,152 @@ background-color: var(--basic-white);
 }
 
 .main-info{
-list-style: none;
-text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
 .info-description{
-font-size: 21px;
-line-height: 26px;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .info-description-item{
-font-size: 14px;
-line-height: 26px;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .card{
-text-align: center;
-background-color: var(--bacground-color);
+  text-align: center;
+  background-color: var(--bacground-color);
 }
 
 .card-main{
-background-color: var(--basic-blue);
+  background-color: var(--basic-blue);
 }
 
 .card-number{
-margin-top: 25px;
+  margin-top: 25px;
 }
 
 .feature-list{
-list-style: none;
-text-align: center;
-line-height: 21px;
-
+  list-style: none;
+  text-align: center;
+  line-height: 21px;
 }
 
 .choice{
-text-align: center;
+  text-align: center;
 }
 
 .feature-list-line{
-list-style: none;
-text-align: center;
-line-height: 21px;
-background-color: var(--bacground-color);
-
+  list-style: none;
+  text-align: center;
+  line-height: 21px;
+  background-color: var(--bacground-color);
 }
 
 .advantages{
-    width: 1200px;
+  width: 1200px;
 }
 
 .social-link-name{
-list-style: none;
-text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
-.tel-info a{
-color: var(--basic-black);
+.tel-info a {
+  color: var(--basic-black);
+}
+
+/*hotels*/
+
+.container-hotels{
+  background-color: var(--basic-white);
+}
+
+.choise-hotels{
+  background-color: #415663;
+  color: var(--basic-white);
+}
+
+.info-choise-hotels,
+.price-hotels{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  font-style: normal;
 }
 
 .info-blok-hotels{
-text-align: left;
+  font-size: 14px;
+  text-align: left;
+  line-height: 21px;
+}
+
+.infrastructure-item,
+.choise-item{
+  font-size: 14px;
+  line-height: 21px;
+  font-style: normal;
 }
 
 .choise-list{
-list-style: none;
+  list-style: none;
 }
 
 .choise-button{
-text-align: center;
+  text-align: center;
 }
 
 .sorting-list{
-list-style: none;
-color: var(--bacground-color);
+  list-style: none;
+  color: var(--bacground-color);
 }
 
 .result-hotel{
-text-align: left;
-font-weight: bold;
-font-size: 21px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
 }
 
-.sorting-item a{
+.sorting{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-item{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-item a {
 color: var(--basic-black);
 }
+
 .sorting-item a:hover,
 .sorting-item a:focus{
-color: var(--basic-blue);
+  color: var(--basic-blue);
 }
 
 .name-hotel{
-font-weight: bold;
-font-size: 21px;
-
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .type-hotel,
 .name-hotel,
-.prise-hotel,
-{
-text-align: left;
+.prise-hotel{
+ text-align: left;
 }
 
 .rating-hotel{
-text-align: right;
+  text-align: right;
 }
 
-.company-name a{
-color: var(--basic-black);
+.company-name a {
+  color: var(--basic-black);
 }
