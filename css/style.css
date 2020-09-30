@@ -50,6 +50,22 @@ img {
   height: auto;
 }
 
+.page {
+  height: 100%;
+}
+
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
+.main-header {
+  display: grid;
+  margin-bottom: 77px;
+}
+
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
@@ -75,6 +91,11 @@ img {
   text-align: center;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .info-description {
   font-size: 21px;
   line-height: 26px;
@@ -85,10 +106,17 @@ img {
   line-height: 26px;
 }
 
+.card-town {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .card {
   text-align: center;
   background-color: var(--bacground-color);
+  height: 256px;
 }
+
 
 .card-main {
   background-color: var(--basic-blue);
@@ -99,9 +127,17 @@ img {
 }
 
 .feature-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   list-style: none;
   text-align: center;
   line-height: 21px;
+}
+
+.card-bridge {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
 }
 
 .choice {
@@ -113,11 +149,28 @@ img {
   text-align: center;
   line-height: 21px;
   background-color: var(--bacground-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .advantages {
   width: 1200px;
 }
+
+.main-footer {
+  padding: 23px 0;
+  margin-top: 36px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  background-position: 0 0;
+}
+
+.main-footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 .social-link-name {
   list-style: none;
